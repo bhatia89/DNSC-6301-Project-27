@@ -8,7 +8,7 @@
 * **Model date**: August 24, 2022
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [Group_27_Credit_Line.ipynb](Group_27_Credit_Line.ipynb)
+* **Model implementation code**: [Group_27_Credit_Line.ipynb](Group_27_Credit_Line.ipynb) 
 
 
 ### Intended Use
@@ -74,7 +74,9 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ### Quantitative Analysis
 
 #### Correlation Heatmap
-![Correlation Heatmap](download.png)
+![Correlation Heatmap](download.png) 
+
+
 
 Quantitative analysis (7 pts.): 
 ○ Metrics used to evaluate your final model (AUC and AIR)
