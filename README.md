@@ -85,7 +85,7 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ![Iteration Plot](iterationfinal.png) 
 
 #### Decision Tree Model
-![Decision Tree Model](desciontree.png) 
+![Decision Tree Model](decsiontree.png) 
 
 Quantitative analysis (7 pts.): 
 ○ Metrics used to evaluate your final model (AUC and AIR)
