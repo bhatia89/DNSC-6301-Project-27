@@ -4,7 +4,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Prachi Pathak, `ppathak13@gwmail.gwu.edu`,Priyanka Bhatia,’Priyanka.bhatia@gwu.edu , Arij Ahmed Khan Lodhi, ‘arijahmedkhan.lodhi@gwmail.gwu.edu’, Adnan Lakdawala, ‘adnan.lakdawala@gwu.edu’ 
+* **Person or organization developing model**: Prachi Pathak, `ppathak13@gwmail.gwu.edu`,Priyanka Bhatia, `Priyanka.bhatia@gwu.edu`, Arij Ahmed Khan Lodhi, `arijahmedkhan.lodhi@gwmail.gwu.edu`, Adnan Lakdawala, `adnan.lakdawala@gwu.edu` 
 * **Model date**: August 24, 2022
 * **Model version**: 1.0
 * **License**: MIT
@@ -54,7 +54,7 @@
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
 * **Version of the modeling software**: 
-Python version: 3.7.13
+Python version: 3.7.13, 
 sklearn version: 1.0.2
 * **Hyperparameters**: 
 ```
