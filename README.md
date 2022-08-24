@@ -87,12 +87,18 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 #### Decision Tree Model
 ![Decision Tree Model](decsiontree.png) 
 
-Quantitative analysis (7 pts.): 
-○ Metrics used to evaluate your final model (AUC and AIR)
- ○ State the final values, neatly -- as bullets or a table, of the metrics for all data: training, validation, and test data 
-○ Provide any plots related to your data or final model -- be sure to label the plots
 
-Ethical considerations (6 pts.): ○ Describe potential negative impacts of using your model: ■ Math or software problems ■ Real-world risks: who, what, when or how ○ Describe potential uncertainties relating to the impacts of using your model: ■ Math or software problems ■ Real-world risks: who, what, when or how? ○ Describe any unexpected or results
+
+
+
+Ethical considerations (6 pts.): ○ This model initially had a moderately strong negative correlation between the prediction in delinquency on the next payment and race. Although confusion matrices were used as a bias testing check and the model was rerun to rectify the bias, caution should be used when implementing the model as the original dataset that this model was based upon has systematic biases in the data, and hence could inherently be introducing bias into the model despite corrective measures. 
+
+This model developed using data sampled from the American population with data from 2005. An important consideration would be that due to inherent bias in the data attempting to use this model in other populations may result in the model failing to accurately predict who is more likely to default, and credit line increases may be unfairly withheld from individuals who may have otherwise not defaulted on any payments. 
+
+This data was also sampled in 2005. Using a model developed using a 17 year old data set to make predictions today may result in several inaccuracies, especially since this data was sampled before the economic recession and changes in the financial climate after the COVID-19 pandemic. Models need to be consistently evolving so they can continue to accurately perform their prediction functions. Using newer data sets in and assessing its predictive powers would help correct any biases due to the use of old data. 
+
+It is important to consider that models with the highest AUC may not necessarily be the best model. There are several factors to consider besides the ‘statistically strongest’ model. Even though conventional parameters of bias testing and standard thresholds of acceptable bias were met in this model, and tree depth was selected after bias testing, there will always be some tradeoff between statistical soundness and fairness when implementing the model, and these factors need to be considered when choosing how the model is developed and implemented in the real world. 
+
 
 
 
