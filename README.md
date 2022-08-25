@@ -95,7 +95,7 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 
 
 
-#### Ethical considerations
+#### Ethical Considerations
 
 Ethical considerations:  This model initially had a moderately strong negative correlation between the prediction in delinquency on the next payment and race. Although confusion matrices were used as a bias testing check and the model was rerun to rectify the bias, caution should be used when implementing the model as the original dataset that this model was based upon has systematic biases in the data, and hence could inherently be introducing bias into the model despite corrective measures. 
 
