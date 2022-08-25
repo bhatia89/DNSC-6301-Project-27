@@ -54,7 +54,7 @@
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
 * **Version of the modeling software**: 
-  * Python version: 3.7.13, 
+  * Python version: 3.7.13 
   * sklearn version: 1.0.2
 * **Hyperparameters**: 
 ```
@@ -74,9 +74,9 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ### Quantitative Analysis
 
 #### Metrics:
-* **Training Data:78.37%**
-* **Validation Data:74.96%**
-* **Test Data:74.38%**
+* **Training Data: 78.37%**
+* **Validation Data: 74.96%**
+* **Test Data: 74.38%**
 
 
 #### Correlation Heatmap
