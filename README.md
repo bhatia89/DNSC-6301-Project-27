@@ -74,9 +74,9 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ### Quantitative Analysis
 
 #### Metrics:
-* **Training Data: 78.37%**
-* **Validation Data: 74.96%**
-* **Test Data: 74.38%**
+* **Training : 78.37%**
+* **Validation : 74.96%**
+* **Test : 74.38%**
 
 
 #### Correlation Heatmap
