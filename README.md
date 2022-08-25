@@ -84,6 +84,13 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 * **Asian-to-white AIR: 1.00**
 * **Female-to-male AIR: 1.06**
 
+#### Updated AIR:
+* **Hispanic-to-white AIR: 0.83**
+* **Black-to-white AIR: 0.85**
+* **Asian-to-white AIR: 1.00**
+* **Female-to-male AIR: 1.02**
+
+
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png) 
 
