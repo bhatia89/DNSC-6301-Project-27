@@ -73,18 +73,18 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ```
 ### Quantitative Analysis
 
-#### AUC:
+#### AUC: All of the AUC's lie between the accepted range of 0.6 to 0.8
 * **Training : 78.37%**
 * **Validation : 74.96%**
 * **Test : 74.38%**
 
-#### AIR:
+#### AIR: The following Adverse Impact Ratios are for the initial model, where the Hispanic to white AIR is below the accepted level of 0.8.
 * **Hispanic-to-white AIR: 0.76**
 * **Black-to-white AIR: 0.82**
 * **Asian-to-white AIR: 1.00**
 * **Female-to-male AIR: 1.06**
 
-#### Updated AIR:
+#### Updated AIR: The following Adverse Impact Ratios are for the updated model, where the Hispanic to white AIR is above the accepted level of 0.8. Improvement in the Black-to-white AIR can also be noted. These indicate that the updated model has better performance in terms of fairness. 
 * **Hispanic-to-white AIR: 0.83**
 * **Black-to-white AIR: 0.85**
 * **Asian-to-white AIR: 1.00**
@@ -93,21 +93,21 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png) 
-*
+* Figure 1: Correlation heatmap shows how stongly the variables in the dataset are related to each other. As expected, BILL_AMT variables are highly positively correlated with each other, as are PAY variables. The strong negative correlation between race and delinquency in payment indicates likelihood for bias in the data and models based on this data. 
 
 
 #### Histograms
 ![Histograms](histograms.png) 
-*
+* Figure 2: Histograms showing the distributions of all variables in the dataset.
 
 #### Iteration Plots
 ![Iteration Plot](iteration1.png) 
 ![Iteration Plot](iterationfinal.png) 
-*
+* Figure 3: Iteration plots showing the AUC on training and validation. Divergence of the test AUC and validation AUC is indicative of overfitting. Higher hispanic to white AIR is indicative of a fairer model. Depth 6 has a high AUC and a high AIR. Depth 7 has a slightly lower AUC but higher AIR. Choosing a depth will involve a tradeoff between performance and fairness.
 
 #### Decision Tree Model
 ![Decision Tree Model](decsiontree.png) 
-* 
+* Figure 4: Decision tree showing where splits were made so delinquency could be predicted based on the dataset. LIMIT_BAL, PAY_X, BILL_AMTX and PAY_AMTX used.
 
 
 #### Ethical Considerations
