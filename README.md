@@ -74,9 +74,9 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ### Quantitative Analysis
 
 #### AUC: All of the AUC's lie between the accepted range of 0.6 to 0.8
-* **Training : .7837**
-* **Validation : .7496**
-* **Test : .7438**
+* **Training : 0.7837**
+* **Validation : 0.7496**
+* **Test : 0.7438**
 
 #### AIR: The following Adverse Impact Ratios are for the initial model, where the Hispanic to white AIR is below the accepted level of 0.8.
 * **Hispanic-to-white AIR: 0.76**
