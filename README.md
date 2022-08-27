@@ -91,8 +91,8 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 * **Female-to-male AIR: 1.02**
 
 
-* Divergence of the test AUC and validation AUC is indicative of overfitting.  
-* Divergence of the training AUC and validation AUC is also indicative of overfitting.
+## Divergence of the test AUC and validation AUC is indicative of overfitting.  
+## Divergence of the training AUC and validation AUC is also indicative of overfitting.
 
 
 
