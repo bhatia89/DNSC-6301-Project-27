@@ -91,8 +91,8 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 * **Female-to-male AIR: 1.02**
 
 
-## Divergence of the test AUC and validation AUC is indicative of overfitting.  
-## Divergence of the training AUC and validation AUC is also indicative of overfitting.
+##### Divergence of the test AUC and validation AUC is indicative of overfitting.  
+##### Divergence of the training AUC and validation AUC is also indicative of overfitting.
 
 
 
@@ -123,7 +123,7 @@ This model developed using data sampled from the Taiwanese population with data 
 
 This data was also sampled in 2005. Implementing a model using 17 year old data set to make predictions today may result in several inaccuracies, especially since this data was sampled before the economic recession and changes in the financial climate after the COVID-19 pandemic. The model need to be consistently evolving so it can continue to accurately perform its prediction functions. Using newer data sets and assessing its predictive powers would help correct any biases due to the use of old data. 
 
-It is important to consider that model with the highest AUC may not necessarily be the best model. There are several factors to consider besides the ‘statistically strongest’ model. Even though conventional parameters of bias testing and standard thresholds of acceptable bias were met in this model, and tree depth was selected after bias testing, there may often be some tradeoff between statistical soundness and fairness when implementing this model, and these factors need to be considered when choosing how the model is developed and implemented in the real world. 
+It is important to consider that the model with the highest AUC may not necessarily be the best model. There are several factors to consider besides the ‘statistically strongest’ model. Even though conventional parameters of bias testing and standard thresholds of acceptable bias were met in this model, and tree depth was selected after bias testing, there may often be some tradeoff between statistical soundness and fairness when implementing this model, and these factors need to be considered when choosing how the model is developed and implemented in the real world. 
 
 
 
