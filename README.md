@@ -12,7 +12,7 @@
 
 
 ### Intended Use
-* **Primary intended uses**: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.. 
+* **Primary intended uses**: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase. 
 * **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
@@ -89,6 +89,11 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 * **Black-to-white AIR: 0.85**
 * **Asian-to-white AIR: 1.00**
 * **Female-to-male AIR: 1.02**
+
+
+* Divergence of the test AUC and validation AUC is indicative of overfitting.  
+* Divergence of the training AUC and validation AUC is also indicative of overfitting.
+
 
 
 #### Correlation Heatmap
