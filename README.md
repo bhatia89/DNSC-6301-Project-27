@@ -74,9 +74,9 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ### Quantitative Analysis
 
 #### AUC: All of the AUC's lie between the accepted range of 0.6 to 0.8
-* **Training : 78.37%**
-* **Validation : 74.96%**
-* **Test : 74.38%**
+* **Training : .7837
+* **Validation : .7496**
+* **Test : .7438**
 
 #### AIR: The following Adverse Impact Ratios are for the initial model, where the Hispanic to white AIR is below the accepted level of 0.8.
 * **Hispanic-to-white AIR: 0.76**
@@ -103,7 +103,7 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 #### Iteration Plots
 ![Iteration Plot](iteration1.png) 
 ![Iteration Plot](iterationfinal.png) 
-* Figure 3: Iteration plots showing the AUC on training and validation. Divergence of the test AUC and validation AUC is indicative of overfitting. Higher hispanic to white AIR is indicative of a fairer model. Depth 6 has a high AUC and a high AIR. Depth 7 has a slightly lower AUC but higher AIR. Choosing a depth will involve a tradeoff between performance and fairness.
+* Figure 3: Iteration plots showing the AUC on training and validation. Divergence of the training AUC and validation AUC is indicative of overfitting. Higher hispanic to white AIR is indicative of a fairer model. Depth 6 has a high AUC and a high AIR. Depth 7 has a slightly lower AUC but higher AIR. Choosing a depth will involve a tradeoff between performance and fairness.
 
 #### Decision Tree Model
 ![Decision Tree Model](decsiontree.png) 
@@ -112,13 +112,13 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 
 #### Ethical Considerations
 
-Ethical considerations:  This model initially had a moderately strong negative correlation between the prediction in delinquency on the next payment and race. Although confusion matrices were used as a bias testing check and the model was rerun to rectify the bias, caution should be used when implementing the model as the original dataset that this model was based upon has systematic biases in the data, and hence could inherently be introducing bias into the model despite corrective measures. 
+Ethical considerations:  This model initially had a moderately strong negative correlation between the prediction in delinquency on the next payment and race. Although Adverse Impact Ratio were used as a bias testing check and the model was rerun to rectify the bias, caution should be used when implementing the model as the original dataset that this model was trained upon has systematic biases in the data, and hence could inherently be introducing bias into the model despite corrective measures. 
 
-This model developed using data sampled from the American population with data from 2005. An important consideration would be that due to inherent bias in the data attempting to use this model in other populations may result in the model failing to accurately predict who is more likely to default, and credit line increases may be unfairly withheld from individuals who may have otherwise not defaulted on any payments. 
+This model developed using data sampled from the Taiwanese population with data from 2005. An important consideration would be that due to inherent bias in the data attempting to use this model in other populations may result in the model failing to accurately predict who is more likely to default, and credit line increases may be unfairly withheld from individuals who may have otherwise not defaulted on any payments. 
 
-This data was also sampled in 2005. Using a model developed using a 17 year old data set to make predictions today may result in several inaccuracies, especially since this data was sampled before the economic recession and changes in the financial climate after the COVID-19 pandemic. Models need to be consistently evolving so they can continue to accurately perform their prediction functions. Using newer data sets in and assessing its predictive powers would help correct any biases due to the use of old data. 
+This data was also sampled in 2005. Using a model developed using a 17 year old data set to make predictions today may result in several inaccuracies, especially since this data was sampled before the economic recession and changes in the financial climate after the COVID-19 pandemic. Models need to be consistently evolving so they can continue to accurately perform their prediction functions. Using newer data sets and assessing its predictive powers would help correct any biases due to the use of old data. 
 
-It is important to consider that models with the highest AUC may not necessarily be the best model. There are several factors to consider besides the ‘statistically strongest’ model. Even though conventional parameters of bias testing and standard thresholds of acceptable bias were met in this model, and tree depth was selected after bias testing, there will always be some tradeoff between statistical soundness and fairness when implementing the model, and these factors need to be considered when choosing how the model is developed and implemented in the real world. 
+It is important to consider that models with the highest AUC may not necessarily be the best model. There are several factors to consider besides the ‘statistically strongest’ model. Even though conventional parameters of bias testing and standard thresholds of acceptable bias were met in this model, and tree depth was selected after bias testing, there may be be some tradeoff between statistical soundness and fairness when implementing the model, and these factors need to be considered when choosing how the model is developed and implemented in the real world. 
 
 
 
