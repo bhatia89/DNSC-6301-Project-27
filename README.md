@@ -117,7 +117,7 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 
 #### Ethical Considerations
 
-Ethical considerations:  This model initially had a moderately strong negative correlation between the prediction in delinquency on the next payment and race. Although adverse impact ratio (AIR) was used as a bias testing check and the model was rerun to rectify the bias. Caution should be used when implementing the model as the original dataset that this model was trained upon has systematic biases in the data and hence, could inherently be introducing bias into the model despite corrective measures. 
+This model initially had a moderately strong negative correlation between the prediction in delinquency on the next payment and race. Although adverse impact ratio (AIR) was used as a bias testing check and the model was rerun to rectify the bias. Caution should be used when implementing the model as the original dataset that this model was trained upon has systematic biases in the data and hence, could inherently be introducing bias into the model despite corrective measures. 
 
 This model developed using data sampled from the Taiwanese population with data from 2005. An important consideration would be that due to inherent bias in the data attempting to use this model in other populations may result in the model failing to accurately predict who is more likely to default, and credit line increases may be unfairly withheld from individuals who may have otherwise not defaulted on any payments. 
 
