@@ -74,7 +74,7 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 ### Quantitative Analysis
 
 #### AUC: All of the AUC's lie between the accepted range of 0.6 to 0.8
-* **Training : .7837
+* **Training : .7837**
 * **Validation : .7496**
 * **Test : .7438**
 
