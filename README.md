@@ -106,8 +106,7 @@ DecisionTreeClassifier({'ccp_alpha': 0.0,
 #### Iteration Plots
 ![Iteration Plot](iteration1.png) 
 ![Iteration Plot](iterationfinal.png) 
-* Figure 3: Iteration plots showing the AUC on training and validation. Divergence of the training AUC and validation AUC is indicative of overfitting. Higher hispanic to white AIR is indicative of a fairer model. Depth 6 has a high AUC and a high AIR. Depth 7 has a slightly lower AUC but higher AIR. Choosing a depth will involve a tradeoff between performance and fairness.
-* Divergence of the test AUC and validation AUC is indicative of overfitting.  
+* Figure 3: Iteration plots showing the AUC on training and validation. Divergence of the training AUC and validation AUC is indicative of overfitting. Higher hispanic to white AIR is indicative of a fairer model. Depth 6 has a high AUC and a high AIR. Depth 7 has a slightly lower AUC but higher AIR. Choosing a depth will involve a tradeoff between performance and fairness.  
 
 
 #### Decision Tree Model
